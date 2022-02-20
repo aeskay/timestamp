@@ -7,8 +7,8 @@
     "deploy": "gh-pages -d build",
     "start": "node ./bin/www",
     "test": "node tests/tests.js",
-		"build": "rm -fr public && parcel build views/src/index.html -d public",
-		"parcel": "parcel watch views/src/index.html -d public"
+    "build": "rm -fr public && parcel build views/src/index.html -d public",
+    "parcel": "parcel watch views/src/index.html -d public"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -17,6 +17,7 @@
     "http-errors": "~1.6.3",
     "jade": "^0.31.2",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "parcel-bundler": "^1.12.5"
   }
 }
