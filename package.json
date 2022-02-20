@@ -5,7 +5,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "rm -fr public && parcel build views/src/index.html -d public"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
